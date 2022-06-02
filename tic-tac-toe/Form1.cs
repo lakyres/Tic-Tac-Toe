@@ -86,7 +86,23 @@ namespace tic_tac_toe
                     }
 
                 }
+                if (top_left.Text == middle_left.Text)
+                {
+                    if (middle_left.Text == bottom_left.Text)
+                    {
+                        MessageBox.Show("Wow, amazing " + top_left.Text + "! " + "You win!");
+                        top_left.Text = "";
+                        top_middle.Text = "";
+                        top_right.Text = "";
+                        middle_left.Text = "";
+                        middle.Text = "";
+                        middle_right.Text = "";
+                        bottom_left.Text = "";
+                        bottom_middle.Text = "";
+                        bottom_right.Text = "";
+                    }
 
+                }
             }   
         }
 
@@ -105,16 +121,20 @@ namespace tic_tac_toe
                 }
                 if (top_middle.Text == top_right.Text)
                 {
-                    MessageBox.Show("Wow, amazing " + top_left.Text + "! " + "You win!");
-                    top_left.Text = "";
-                    top_middle.Text = "";
-                    top_right.Text = "";
-                    middle_left.Text = "";
-                    middle.Text = "";
-                    middle_right.Text = "";
-                    bottom_left.Text = "";
-                    bottom_middle.Text = "";
-                    bottom_right.Text = "";
+                    if (top_right.Text == top_left.Text)
+                    {
+                        MessageBox.Show("Wow, amazing " + top_left.Text + "! " + "You win!");
+                        top_left.Text = "";
+                        top_middle.Text = "";
+                        top_right.Text = "";
+                        middle_left.Text = "";
+                        middle.Text = "";
+                        middle_right.Text = "";
+                        bottom_left.Text = "";
+                        bottom_middle.Text = "";
+                        bottom_right.Text = "";
+                    }
+
                 }
             }
 
@@ -133,6 +153,23 @@ namespace tic_tac_toe
                 else
                 {
                     XandOBox = "X";
+                }
+                if (bottom_left.Text == middle_left.Text)
+                {
+                    if (middle_left.Text == top_left.Text)
+                    {
+                        MessageBox.Show("Wow, amazing " + top_left.Text + "! " + "You win!");
+                        top_left.Text = "";
+                        top_middle.Text = "";
+                        top_right.Text = "";
+                        middle_left.Text = "";
+                        middle.Text = "";
+                        middle_right.Text = "";
+                        bottom_left.Text = "";
+                        bottom_middle.Text = "";
+                        bottom_right.Text = "";
+                    }
+
                 }
             }
 
@@ -203,6 +240,23 @@ namespace tic_tac_toe
                 else
                 {
                     XandOBox = "X";
+                }
+                if (middle_left.Text == bottom_left.Text)
+                {
+                    if (bottom_left.Text == top_left.Text)
+                    {
+                        MessageBox.Show("Wow, amazing " + top_left.Text + "! " + "You win!");
+                        top_left.Text = "";
+                        top_middle.Text = "";
+                        top_right.Text = "";
+                        middle_left.Text = "";
+                        middle.Text = "";
+                        middle_right.Text = "";
+                        bottom_left.Text = "";
+                        bottom_middle.Text = "";
+                        bottom_right.Text = "";
+                    }
+
                 }
             }
         }
