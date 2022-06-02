@@ -10,16 +10,16 @@ using System.Windows.Forms;
 
 namespace tic_tac_toe
 {
-    public partial class Form1 : Form
+    public partial class ttt_bg : Form
     {
-        public Form1()
+        public ttt_bg()
         {
             InitializeComponent();
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            panel1.BackColor = Color.FromArgb(100, 0, 0, 0);
+            transparent_bg.BackColor = Color.FromArgb(100, 0, 0, 0);
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -35,6 +35,16 @@ namespace tic_tac_toe
         private void button1_Click(object sender, EventArgs e)
         {
             
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonl_left_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
