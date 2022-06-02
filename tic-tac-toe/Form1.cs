@@ -25,7 +25,18 @@ namespace tic_tac_toe
 
         private void button3_Click(object sender, EventArgs e)
         {
-
+            if (top_right.Text == "")
+            {
+                top_right.Text = XandOBox;
+                if (XandOBox == "X")
+                {
+                    XandOBox = "O";
+                }
+                else
+                {
+                    XandOBox = "X";
+                }
+            }
         }
 
         private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
@@ -51,35 +62,122 @@ namespace tic_tac_toe
 
         private void button2_Click(object sender, EventArgs e)
         {
-            
-            
+            if (top_middle.Text == "")
+            {
+                top_middle.Text = XandOBox;
+                if (XandOBox == "X")
+                {
+                    XandOBox = "O";
+                }
+                else
+                {
+                    XandOBox = "X";
+                }
+            }
+
 
         }
 
         private void buttonl_left_Click(object sender, EventArgs e)
         {
-            
+            if (bottom_left.Text == "")
+            {
+                bottom_left.Text = XandOBox;
+                if (XandOBox == "X")
+                {
+                    XandOBox = "O";
+                }
+                else
+                {
+                    XandOBox = "X";
+                }
+            }
 
-            
+
         }
         private void bottom_right_Click(object sender, EventArgs e)
         {
-
+            if (bottom_right.Text == "")
+            {
+                bottom_right.Text = XandOBox;
+                if (XandOBox == "X")
+                {
+                    XandOBox = "O";
+                }
+                else
+                {
+                    XandOBox = "X";
+                }
+            }
         }
 
         private void bottom_middle_Click(object sender, EventArgs e)
         {
-
+            if (bottom_middle.Text == "")
+            {
+                bottom_middle.Text = XandOBox;
+                if (XandOBox == "X")
+                {
+                    XandOBox = "O";
+                }
+                else
+                {
+                    XandOBox = "X";
+                }
+            }
         }
 
         private void middle_Click(object sender, EventArgs e)
         {
-
+            if (middle.Text == "")
+            {
+                middle.Text = XandOBox;
+                if (XandOBox == "X")
+                {
+                    XandOBox = "O";
+                }
+                else
+                {   
+                    XandOBox = "X";
+                }
+            }
         }
 
         private void transparent_bg_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void middle_left_Click(object sender, EventArgs e)
+        {
+            if (middle_left.Text == "")
+            {
+                middle_left.Text = XandOBox;
+                if (XandOBox == "X")
+                {
+                    XandOBox = "O";
+                }
+                else
+                {
+                    XandOBox = "X";
+                }
+            }
+        }
+
+        private void middle_right_Click(object sender, EventArgs e)
+        {
+            if (middle_right.Text == "")
+            {
+                middle_right.Text = XandOBox;
+                if (XandOBox == "X")
+                {
+                    XandOBox = "O";
+                }
+                else
+                {
+                    XandOBox = "X";
+                }
+            }
         }
     }
 }

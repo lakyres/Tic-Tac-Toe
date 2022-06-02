@@ -58,6 +58,7 @@
             this.middle_right.Size = new System.Drawing.Size(78, 79);
             this.middle_right.TabIndex = 5;
             this.middle_right.UseVisualStyleBackColor = true;
+            this.middle_right.Click += new System.EventHandler(this.middle_right_Click);
             // 
             // middle_left
             // 
@@ -66,6 +67,7 @@
             this.middle_left.Size = new System.Drawing.Size(78, 79);
             this.middle_left.TabIndex = 3;
             this.middle_left.UseVisualStyleBackColor = true;
+            this.middle_left.Click += new System.EventHandler(this.middle_left_Click);
             // 
             // bottom_left
             // 
