@@ -12,6 +12,7 @@ namespace tic_tac_toe
 {
     public partial class ttt_bg : Form
     {
+        String XandOBox = "X";
         public ttt_bg()
         {
             InitializeComponent();
@@ -34,15 +35,49 @@ namespace tic_tac_toe
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+            if (top_left.Text == "")
+            {
+                top_left.Text = XandOBox;
+                if (XandOBox == "X")
+                {
+                    XandOBox = "O";
+                }
+                else
+                {   
+                    XandOBox = "X";
+                }
+            }
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
+            
+            
 
         }
 
         private void buttonl_left_Click(object sender, EventArgs e)
+        {
+            
+
+            
+        }
+        private void bottom_right_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bottom_middle_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void middle_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void transparent_bg_Paint(object sender, PaintEventArgs e)
         {
 
         }

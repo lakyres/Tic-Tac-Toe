@@ -49,6 +49,7 @@
             this.middle.Size = new System.Drawing.Size(78, 79);
             this.middle.TabIndex = 4;
             this.middle.UseVisualStyleBackColor = true;
+            this.middle.Click += new System.EventHandler(this.middle_Click);
             // 
             // middle_right
             // 
@@ -92,6 +93,7 @@
             this.bottom_middle.Size = new System.Drawing.Size(78, 79);
             this.bottom_middle.TabIndex = 7;
             this.bottom_middle.UseVisualStyleBackColor = true;
+            this.bottom_middle.Click += new System.EventHandler(this.bottom_middle_Click);
             // 
             // top_middle
             // 
@@ -111,6 +113,7 @@
             this.bottom_right.Size = new System.Drawing.Size(78, 79);
             this.bottom_right.TabIndex = 8;
             this.bottom_right.UseVisualStyleBackColor = true;
+            this.bottom_right.Click += new System.EventHandler(this.bottom_right_Click);
             // 
             // top_left
             // 
@@ -120,7 +123,7 @@
             this.top_left.Name = "top_left";
             this.top_left.Size = new System.Drawing.Size(78, 79);
             this.top_left.TabIndex = 0;
-            this.top_left.UseVisualStyleBackColor = false;
+            this.top_left.UseVisualStyleBackColor = true;
             this.top_left.Click += new System.EventHandler(this.button1_Click);
             // 
             // transparent_bg
@@ -138,6 +141,7 @@
             this.transparent_bg.Name = "transparent_bg";
             this.transparent_bg.Size = new System.Drawing.Size(336, 349);
             this.transparent_bg.TabIndex = 9;
+            this.transparent_bg.Paint += new System.Windows.Forms.PaintEventHandler(this.transparent_bg_Paint);
             // 
             // ttt_bg
             // 
