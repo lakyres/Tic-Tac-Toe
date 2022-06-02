@@ -7,22 +7,32 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WMPLib;
 
 namespace tic_tac_toe
 {
     public partial class ttt_bg : Form
     {
+        WindowsMediaPlayer player = new WindowsMediaPlayer();
+
         String XandOBox = "X";
         int counter = 0;
         public ttt_bg()
         {
             InitializeComponent();
+            player.URL = "Circus Baby's Minigame Theme- Turtle Crusher (extended_ both versions) - FNaF SL (slowed+reverb).mp3";
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            player.controls.play();
             transparent_bg.BackColor = Color.FromArgb(100, 0, 0, 0);
         }
+        
+        
+        
+            
+        
 
         private void button3_Click(object sender, EventArgs e)
         {
@@ -657,6 +667,16 @@ namespace tic_tac_toe
                 }
 
             }
+        }
+
+        private void splitter1_SplitterMoved(object sender, SplitterEventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

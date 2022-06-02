@@ -9,3 +9,8 @@ C:\Users\angel\source\repos\tic-tac-toe\tic-tac-toe\obj\Debug\tic-tac-toe.csproj
 C:\Users\angel\source\repos\tic-tac-toe\tic-tac-toe\obj\Debug\tic-tac-toe.exe
 C:\Users\angel\source\repos\tic-tac-toe\tic-tac-toe\obj\Debug\tic-tac-toe.pdb
 C:\Users\angel\source\repos\tic-tac-toe\tic-tac-toe\obj\Debug\tic_tac_toe.ttt_bg.resources
+C:\Users\angel\source\repos\tic-tac-toe\tic-tac-toe\obj\Debug\Interop.WMPLib.dll
+C:\Users\angel\source\repos\tic-tac-toe\tic-tac-toe\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\angel\source\repos\tic-tac-toe\tic-tac-toe\obj\Debug\tic-tac-toe.csproj.ResolveComReference.cache
+C:\Users\angel\source\repos\tic-tac-toe\tic-tac-toe\bin\Debug\Interop.WMPLib.dll
+C:\Users\angel\source\repos\tic-tac-toe\tic-tac-toe\bin\Debug\AxInterop.WMPLib.dll

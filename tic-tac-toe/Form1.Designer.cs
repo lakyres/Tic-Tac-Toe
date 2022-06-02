@@ -39,6 +39,8 @@
             this.bottom_right = new System.Windows.Forms.Button();
             this.top_left = new System.Windows.Forms.Button();
             this.transparent_bg = new System.Windows.Forms.Panel();
+            this.splitter1 = new System.Windows.Forms.Splitter();
+            this.title = new System.Windows.Forms.Label();
             this.transparent_bg.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -145,18 +147,43 @@
             this.transparent_bg.TabIndex = 9;
             this.transparent_bg.Paint += new System.Windows.Forms.PaintEventHandler(this.transparent_bg_Paint);
             // 
+            // splitter1
+            // 
+            this.splitter1.Location = new System.Drawing.Point(0, 0);
+            this.splitter1.Name = "splitter1";
+            this.splitter1.Size = new System.Drawing.Size(3, 522);
+            this.splitter1.TabIndex = 10;
+            this.splitter1.TabStop = false;
+            this.splitter1.SplitterMoved += new System.Windows.Forms.SplitterEventHandler(this.splitter1_SplitterMoved);
+            // 
+            // title
+            // 
+            this.title.AutoSize = true;
+            this.title.BackColor = System.Drawing.Color.Black;
+            this.title.Font = new System.Drawing.Font("Hollywood Hills", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.title.ForeColor = System.Drawing.Color.White;
+            this.title.Location = new System.Drawing.Point(145, 30);
+            this.title.Name = "title";
+            this.title.Size = new System.Drawing.Size(248, 43);
+            this.title.TabIndex = 11;
+            this.title.Text = "TIC-TAC-TOE";
+            this.title.Click += new System.EventHandler(this.label1_Click);
+            // 
             // ttt_bg
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(548, 522);
+            this.Controls.Add(this.title);
+            this.Controls.Add(this.splitter1);
             this.Controls.Add(this.transparent_bg);
             this.Name = "ttt_bg";
             this.Text = "Tic-Tac-Toe";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.transparent_bg.ResumeLayout(false);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -172,6 +199,8 @@
         private System.Windows.Forms.Button bottom_right;
         private System.Windows.Forms.Button top_left;
         private System.Windows.Forms.Panel transparent_bg;
+        private System.Windows.Forms.Splitter splitter1;
+        private System.Windows.Forms.Label title;
     }
 }
 
