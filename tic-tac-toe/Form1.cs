@@ -173,6 +173,7 @@ namespace tic_tac_toe
                         bottom_middle.Text = "";
                         bottom_right.Text = "";
                         counter = 0;
+
                     }
 
                 }
@@ -542,7 +543,13 @@ namespace tic_tac_toe
                     }
 
                 }
-               
+                counter = counter + 0;
+                if (counter == 9)
+                {
+                    MessageBox.Show("Wow, it's a draw!!");
+                    counter = 0;
+                }
+
 
             }
         }
