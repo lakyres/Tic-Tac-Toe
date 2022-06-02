@@ -13,6 +13,7 @@ namespace tic_tac_toe
     public partial class ttt_bg : Form
     {
         String XandOBox = "X";
+        int counter = 0;
         public ttt_bg()
         {
             InitializeComponent();
@@ -50,6 +51,7 @@ namespace tic_tac_toe
                         bottom_left.Text = "";
                         bottom_middle.Text = "";
                         bottom_right.Text = "";
+                        counter = 0;
                     }
                 }
                 if (top_right.Text == middle_right.Text)
@@ -66,6 +68,7 @@ namespace tic_tac_toe
                         bottom_left.Text = "";
                         bottom_middle.Text = "";
                         bottom_right.Text = "";
+                        counter = 0;
                     }
                 }
                 if (top_right.Text == middle.Text)
@@ -82,8 +85,15 @@ namespace tic_tac_toe
                         bottom_left.Text = "";
                         bottom_middle.Text = "";
                         bottom_right.Text = "";
+                        counter = 0;
                     }
 
+                }
+                counter = counter + 1;
+                if (counter == 9)
+                {
+                    MessageBox.Show("Wow, it's a draw!!");
+                    counter = 0;
                 }
 
             }
@@ -116,6 +126,7 @@ namespace tic_tac_toe
                         bottom_left.Text = "";
                         bottom_middle.Text = "";
                         bottom_right.Text = "";
+                        counter = 0;
                     }
 
                 }
@@ -133,6 +144,7 @@ namespace tic_tac_toe
                         bottom_left.Text = "";
                         bottom_middle.Text = "";
                         bottom_right.Text = "";
+                        counter = 0;
                     }
 
                 }
@@ -150,8 +162,15 @@ namespace tic_tac_toe
                         bottom_left.Text = "";
                         bottom_middle.Text = "";
                         bottom_right.Text = "";
+                        counter = 0;
                     }
 
+                }
+                counter = counter + 1;
+                if (counter == 9)
+                {
+                    MessageBox.Show("Wow, it's a draw!!");
+                    counter = 0;
                 }
             }   
         }
@@ -183,6 +202,7 @@ namespace tic_tac_toe
                         bottom_left.Text = "";
                         bottom_middle.Text = "";
                         bottom_right.Text = "";
+                        counter = 0;
                     }
 
                 }
@@ -200,8 +220,15 @@ namespace tic_tac_toe
                         bottom_left.Text = "";
                         bottom_middle.Text = "";
                         bottom_right.Text = "";
+                        counter = 0;
                     }
 
+                }
+                counter = counter + 1;
+                if (counter == 9)
+                {
+                    MessageBox.Show("Wow, it's a draw!!");
+                    counter = 0;
                 }
             }
 
@@ -235,6 +262,7 @@ namespace tic_tac_toe
                         bottom_left.Text = "";
                         bottom_middle.Text = "";
                         bottom_right.Text = "";
+                        counter = 0;
                     }
 
                 }
@@ -252,6 +280,7 @@ namespace tic_tac_toe
                         bottom_left.Text = "";
                         bottom_middle.Text = "";
                         bottom_right.Text = "";
+                        counter = 0;
                     }
 
                 }
@@ -269,8 +298,15 @@ namespace tic_tac_toe
                         bottom_left.Text = "";
                         bottom_middle.Text = "";
                         bottom_right.Text = "";
+                        counter = 0;
                     }
 
+                }
+                counter = counter + 1;
+                if (counter == 9)
+                {
+                    MessageBox.Show("Wow, it's a draw!!");
+                    counter = 0;
                 }
             }
 
@@ -303,6 +339,7 @@ namespace tic_tac_toe
                         bottom_left.Text = "";
                         bottom_middle.Text = "";
                         bottom_right.Text = "";
+                        counter = 0;
                     }
 
                 }
@@ -320,6 +357,7 @@ namespace tic_tac_toe
                         bottom_left.Text = "";
                         bottom_middle.Text = "";
                         bottom_right.Text = "";
+                        counter = 0;
                     }
 
                 }
@@ -337,8 +375,15 @@ namespace tic_tac_toe
                         bottom_left.Text = "";
                         bottom_middle.Text = "";
                         bottom_right.Text = "";
+                        counter = 0;
                     }
 
+                }
+                counter = counter + 1;
+                if (counter == 9)
+                {
+                    MessageBox.Show("Wow, it's a draw!!");
+                    counter = 0;
                 }
 
             }
@@ -371,6 +416,7 @@ namespace tic_tac_toe
                         bottom_left.Text = "";
                         bottom_middle.Text = "";
                         bottom_right.Text = "";
+                        counter = 0;
                     }
 
                 }
@@ -388,8 +434,15 @@ namespace tic_tac_toe
                         bottom_left.Text = "";
                         bottom_middle.Text = "";
                         bottom_right.Text = "";
+                        counter = 0;
                     }
 
+                }
+                counter = counter + 1;
+                if (counter == 9)
+                {
+                    MessageBox.Show("Wow, it's a draw!!");
+                    counter = 0;
                 }
             }
         }
@@ -421,6 +474,7 @@ namespace tic_tac_toe
                         bottom_left.Text = "";
                         bottom_middle.Text = "";
                         bottom_right.Text = "";
+                        counter = 0;
                     }
 
                 }
@@ -438,6 +492,7 @@ namespace tic_tac_toe
                         bottom_left.Text = "";
                         bottom_middle.Text = "";
                         bottom_right.Text = "";
+                        counter = 0;
                     }
 
                 }
@@ -455,6 +510,7 @@ namespace tic_tac_toe
                         bottom_left.Text = "";
                         bottom_middle.Text = "";
                         bottom_right.Text = "";
+                        counter = 0;
                     }
 
                 }
@@ -472,9 +528,11 @@ namespace tic_tac_toe
                         bottom_left.Text = "";
                         bottom_middle.Text = "";
                         bottom_right.Text = "";
+                        counter = 0;
                     }
 
                 }
+               
 
             }
         }
@@ -511,6 +569,7 @@ namespace tic_tac_toe
                         bottom_left.Text = "";
                         bottom_middle.Text = "";
                         bottom_right.Text = "";
+                        counter = 0;
                     }
 
                 }
@@ -528,8 +587,15 @@ namespace tic_tac_toe
                         bottom_left.Text = "";
                         bottom_middle.Text = "";
                         bottom_right.Text = "";
+                        counter = 0;
                     }
 
+                }
+                counter = counter + 1;
+                if (counter == 9)
+                {
+                    MessageBox.Show("Wow, it's a draw!!");
+                    counter = 0;
                 }
             }
         }
@@ -561,6 +627,7 @@ namespace tic_tac_toe
                         bottom_left.Text = "";
                         bottom_middle.Text = "";
                         bottom_right.Text = "";
+                        counter = 0;
                     }
 
                 }
@@ -578,8 +645,15 @@ namespace tic_tac_toe
                         bottom_left.Text = "";
                         bottom_middle.Text = "";
                         bottom_right.Text = "";
+                        counter = 0;
                     }
 
+                }
+                counter = counter + 1;
+                if (counter == 9)
+                {
+                    MessageBox.Show("Wow, it's a draw!!");
+                    counter = 0;
                 }
 
             }

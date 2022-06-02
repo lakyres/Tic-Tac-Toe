@@ -153,7 +153,7 @@
             this.ClientSize = new System.Drawing.Size(548, 522);
             this.Controls.Add(this.transparent_bg);
             this.Name = "ttt_bg";
-            this.Text = "Form1";
+            this.Text = "Tic-Tac-Toe";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.transparent_bg.ResumeLayout(false);
             this.ResumeLayout(false);
