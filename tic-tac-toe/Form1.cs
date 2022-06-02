@@ -36,12 +36,24 @@ namespace tic_tac_toe
                 {
                     XandOBox = "X";
                 }
+                if (top_right.Text == top_left.Text)
+                {
+                    if (top_left.Text == top_middle.Text)
+                    {
+                        MessageBox.Show("Wow, amazing " + top_left.Text + "! " + "You win!");
+                        top_left.Text = "";
+                        top_middle.Text = "";
+                        top_right.Text = "";
+                        middle_left.Text = "";
+                        middle.Text = "";
+                        middle_right.Text = "";
+                        bottom_left.Text = "";
+                        bottom_middle.Text = "";
+                        bottom_right.Text = "";
+                    }
+                }
+
             }
-        }
-
-        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
-        {
-
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -57,7 +69,25 @@ namespace tic_tac_toe
                 {   
                     XandOBox = "X";
                 }
-            }
+                if (top_left.Text == top_middle.Text)
+                {
+                    if (top_middle.Text == top_right.Text)
+                    {
+                        MessageBox.Show("Wow, amazing " + top_left.Text + "! " + "You win!");
+                        top_left.Text = "";
+                        top_middle.Text = "";
+                        top_right.Text = "";
+                        middle_left.Text = "";
+                        middle.Text = "";
+                        middle_right.Text = "";
+                        bottom_left.Text = "";
+                        bottom_middle.Text = "";
+                        bottom_right.Text = "";
+                    }
+
+                }
+
+            }   
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -72,6 +102,19 @@ namespace tic_tac_toe
                 else
                 {
                     XandOBox = "X";
+                }
+                if (top_middle.Text == top_right.Text)
+                {
+                    MessageBox.Show("Wow, amazing " + top_left.Text + "! " + "You win!");
+                    top_left.Text = "";
+                    top_middle.Text = "";
+                    top_right.Text = "";
+                    middle_left.Text = "";
+                    middle.Text = "";
+                    middle_right.Text = "";
+                    bottom_left.Text = "";
+                    bottom_middle.Text = "";
+                    bottom_right.Text = "";
                 }
             }
 
